@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/notes
+# catalog-date 2006-09-14 22:20:05 +0200
+# catalog-license lppl
+# catalog-version v1.0.1
 Name:		texlive-notes
 Version:	v1.0.1
 Release:	1
@@ -63,6 +69,7 @@ as 'fig' sources, processable by xfig.).
 %doc %{_texmfdistdir}/source/latex/notes/notes.drv
 %doc %{_texmfdistdir}/source/latex/notes/notes.dtx
 %doc %{_texmfdistdir}/source/latex/notes/notes.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -73,3 +80,5 @@ as 'fig' sources, processable by xfig.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
