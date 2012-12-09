@@ -69,3 +69,21 @@ as 'fig' sources, processable by xfig.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.0.1-3
++ Revision: 804956
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.0.1-2
++ Revision: 754439
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.0.1-1
++ Revision: 719133
+- texlive-notes
+- texlive-notes
+- texlive-notes
+- texlive-notes
+
