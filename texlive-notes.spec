@@ -6,7 +6,7 @@
 # catalog-version v1.0.1
 Name:		texlive-notes
 Version:	v1.0.1
-Release:	5
+Release:	6
 Summary:	Mark sections of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notes
