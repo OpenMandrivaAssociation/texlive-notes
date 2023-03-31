@@ -1,6 +1,6 @@
 Name:		texlive-notes
 Version:	42428
-Release:	1
+Release:	2
 Summary:	Mark sections of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notes
