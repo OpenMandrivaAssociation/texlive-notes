@@ -3,7 +3,7 @@ Version:	42428
 Release:	2
 Summary:	Mark sections of a document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/notes
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/notes
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/notes.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/notes.doc.r%{version}.tar.xz
